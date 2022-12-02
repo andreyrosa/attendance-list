@@ -21,7 +21,7 @@ export function Home() {
   setStudents(state => [... state, newStudent]);
 }
 
-const gitHubUser = 'andreyrosa'
+const gitHubUser = 'your github user'
 
   useEffect(() => {
     async function fetchData() {
